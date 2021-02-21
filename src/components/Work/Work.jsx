@@ -1,10 +1,11 @@
 import React from 'react';
+import { WorkContainer } from './Work.elements';
 
 const Work = () => {
     return (
-        <div>
+        <WorkContainer>
             WORK
-        </div>
+        </WorkContainer>
     )
 }
 

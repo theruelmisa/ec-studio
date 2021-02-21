@@ -1,10 +1,19 @@
 import React from 'react';
+import { 
+    StoryContent,
+    StoryImage
+} from './Story.elements';
 
 const Story = () => {
     return (
-        <div>
-            STORY
-        </div>
+        <>
+            <StoryContent>
+                CONTENT
+            </StoryContent>
+            <StoryImage>
+                IMAGE
+            </StoryImage>
+        </>
     )
 }
 

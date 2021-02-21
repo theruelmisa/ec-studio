@@ -1,5 +1,5 @@
 import React from 'react';
-import GlobalStyles from './globalStyles';
+import GlobalStyles, { MainContainer } from './globalStyles';
 import { 
     Header,
     Sidebar,
@@ -15,14 +15,16 @@ const App = () => {
     return ( 
         <>
             <GlobalStyles />
-            <Sidebar />
             <Header />
-            <Hero />
-            <Work />
-            <Story />
-            <About />
-            <Contact />
-            <Footer />
+            <MainContainer>
+                <Sidebar />
+                <Hero />
+                <Work />
+                <Story />
+                <About />
+                <Contact />
+                <Footer />
+            </MainContainer>
         </>
     );
 }

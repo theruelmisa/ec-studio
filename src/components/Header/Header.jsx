@@ -1,8 +1,9 @@
 import React from 'react';
+import { HeaderContainer } from './Header.elements';
 
 const Header = () => {
     return (
-        <header>
+        <HeaderContainer>
             <h1>EC Studio</h1>
 
             <nav>
@@ -13,7 +14,7 @@ const Header = () => {
                     <li>Contact</li>
                 </ul>
             </nav>
-        </header>
+        </HeaderContainer>
     )
 }
 
