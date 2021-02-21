@@ -1,19 +1,42 @@
 import React from 'react';
-import { HeaderContainer } from './Header.elements';
+import { 
+    HeaderContainer,
+    Logo,
+    Nav,
+    Menu,
+    MenuItem,
+    MenuLink
+} from './Header.elements';
 
 const Header = () => {
     return (
         <HeaderContainer>
-            <h1>EC Studio</h1>
+            <Logo>EC Studios MNL</Logo>
 
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Work</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+            <Nav>
+                <Menu>
+                    <MenuItem>
+                        <MenuLink href="#">
+                            Home
+                        </MenuLink>
+                    </MenuItem>
+                    <MenuItem>
+                        <MenuLink href="#">
+                            Work
+                        </MenuLink>
+                    </MenuItem>
+                    <MenuItem>
+                        <MenuLink href="#">
+                            About
+                        </MenuLink>
+                    </MenuItem>
+                    <MenuItem>
+                        <MenuLink href="#">
+                            Contact
+                        </MenuLink>
+                    </MenuItem>
+                </Menu>
+            </Nav>
         </HeaderContainer>
     )
 }

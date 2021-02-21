@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StoryContent = styled.div`
     background-color: navy;
 
-    grid-column: sidebar-start / col-end 4;
+    grid-column: full-start / col-end 4;
     grid-row: 3 / 4;
 `;
 

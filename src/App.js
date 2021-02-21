@@ -2,7 +2,6 @@ import React from 'react';
 import GlobalStyles, { MainContainer } from './globalStyles';
 import { 
     Header,
-    Sidebar,
     Hero,
     Work,
     About,
@@ -17,7 +16,6 @@ const App = () => {
             <GlobalStyles />
             <Header />
             <MainContainer>
-                <Sidebar />
                 <Hero />
                 <Work />
                 <Story />
